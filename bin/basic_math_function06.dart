@@ -16,5 +16,5 @@ void main() {
 }
 
 num func(int x, int y) {
-  return pow(x, 2) + pow(y, 2);
+  return pow(cos(x), 2) + pow(sin(y), 2);
 }

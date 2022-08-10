@@ -14,5 +14,5 @@ void main() {
 }
 
 num func(int x, double y) {
-  return x * y;
+  return x * sin(y);
 }
