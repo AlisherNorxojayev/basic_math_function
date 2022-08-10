@@ -11,9 +11,9 @@ Create function named func with a argument
 import 'dart:math';
 
 void main() {
-  print(func(8, (pi/3).round()).roundToDouble());
+  print(func(8, (pi/3)).roundToDouble());
 }
 
-num func(int x, int y) {
+double func(int x, double y) {
   return cos(y) * x;
 }

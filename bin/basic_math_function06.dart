@@ -13,9 +13,9 @@ import 'dart:ffi';
 import 'dart:math';
 
 void main() {
-  print(func((pi / 3).round(), (pi / 3).round()));
+  print(func((pi / 3), (pi / 3)));
 }
 
-num func(int x, int y) {
-  return pow(cos(x), 2) + pow(sin(y), 2);
+double func(double x, double y) {
+  return (pow(cos(x), 2) + pow(sin(y), 2)).roundToDouble();
 }
