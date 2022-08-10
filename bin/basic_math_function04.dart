@@ -10,7 +10,7 @@
 import 'dart:math';
 
 void main() {
-  print(func(8, pi / 6).round());
+  print(func(8, pi / 6).toStringAsFixed(0));
 }
 
 double func(int x, double y) {
