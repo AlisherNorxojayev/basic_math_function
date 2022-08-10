@@ -9,6 +9,7 @@ Create function named func with a argument
       Round the result before returning the sum of the raised values
 */
 
+import 'dart:ffi';
 import 'dart:math';
 
 void main() {

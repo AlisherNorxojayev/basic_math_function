@@ -13,6 +13,6 @@ void main() {
   print(func(8, pi / 6).roundToDouble());
 }
 
-num func(int x, double y) {
+double func(int x, double y) {
   return x * sin(y);
 }
