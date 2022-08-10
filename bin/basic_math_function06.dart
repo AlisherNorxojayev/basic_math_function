@@ -9,4 +9,12 @@ Create function named func with a argument
       Round the result before returning the sum of the raised values
 */
 
-void main() {}
+import 'dart:math';
+
+void main() {
+  print(func((pi / 3).round(), (pi / 3).round()));
+}
+
+num func(int x, int y) {
+  return pow(x, 2) + pow(y, 2);
+}
