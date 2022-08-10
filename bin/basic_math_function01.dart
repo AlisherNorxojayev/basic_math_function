@@ -13,6 +13,6 @@ void main() {
   print(func(16));
 }
 
-double func(int square_area) {
+num func(int square_area) {
   return sqrt(square_area);
 }

@@ -12,6 +12,6 @@ void main() {
   print(func(5));
 }
 
-double func(int R) {
+num func(int R) {
   return 2 * pi * R;
 }
